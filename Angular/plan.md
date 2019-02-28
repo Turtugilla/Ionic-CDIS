@@ -1,20 +1,21 @@
 #  Temario
 
 
-
-## Arquitectura
+## Conceptos  
+### Arquitectura
 * Modulos
 * Componentes
 * Servicios
 
-## Componentes
+### Componentes
 * Templates
 * Mostrar información
 * Entrada de información
 * Ciclo de vida
 * Pipes
-
-## Práctica
+____
+### Práctica
+(pendiente agregar imagenes)
 
 
 
