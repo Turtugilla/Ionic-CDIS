@@ -13,7 +13,7 @@
 * Entrada de información
 * Ciclo de vida
 * Pipes
-==
+
 ## Práctica
 
 
