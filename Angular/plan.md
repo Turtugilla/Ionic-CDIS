@@ -14,7 +14,7 @@
 * Ciclo de vida
 * Pipes
 ____
-### Práctica
+## Práctica
 (pendiente agregar imagenes)
 
 
