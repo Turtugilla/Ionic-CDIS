@@ -1,5 +1,7 @@
 #  Temario
-
+* Que es Angular
+* Prerrequisitos 
+* Instalación de Angular
 
 ## Conceptos  
 ### Arquitectura
