@@ -23,7 +23,7 @@ ____
 ![DashBoard](https://github.com/Turtugilla/Ionic-CDIS/blob/master/Angular/imagenes/list-products.JPG)
 ____
 ### Pantalla detalles de producto 
-![DashBoard](https://github.com/Turtugilla/Ionic-CDIS/blob/master/Angular/imagenes/details-products.JPG)
+![DashBoard](https://github.com/Turtugilla/Ionic-CDIS/blob/master/Angular/imagenes/details.JPG)
 
 
 
