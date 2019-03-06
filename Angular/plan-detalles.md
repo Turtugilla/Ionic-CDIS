@@ -10,9 +10,7 @@
 * Visual Studio Code
 
 ### Creando la aplicación
-1. Correr el siguien comando CLI
-       
-       ```ng new catalogo-productos ```
+1. Correr el siguien comando CLI :           ```ng new catalogo-productos ```
 
 
 
