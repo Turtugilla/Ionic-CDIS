@@ -95,15 +95,18 @@ export class ProductosComponent implements OnInit {
 ```
 
 7. Generar detalles-producto.component para separar los detalles de el producto.
-Solamente se agrega el ```typescript @Input() producto: Producto ``` y en el html de productos.componente 
--> ```html 
-<app-detalles-producto [producto]="productoSeleccionado"></app-detalles-producto> ```
+Solamente se agrega el 
+```typescript 
+@Input() producto: Producto 
+``` 
+y en el html de productos.componente 
+```html 
+<app-detalles-producto [producto]="productoSeleccionado"></app-detalles-producto> 
+```
 
 
 
   
-  
-
   
 
 ### Día 2
