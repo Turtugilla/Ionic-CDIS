@@ -103,8 +103,8 @@ y en el html de productos.componente
 ```html 
 <app-detalles-producto [producto]="productoSeleccionado"></app-detalles-producto> 
 ```
-
-
+Agregar el css de detalles.
+Al final del día debe estar la pantalla con los detalles.
 
   
   
