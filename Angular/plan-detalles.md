@@ -66,7 +66,7 @@ Al final de esta parte se añade el css
    </li>
 </ul>
 ```
-```typscript
+```typescript
 import { Component, OnInit } from '@angular/core';
 import {Producto} from '../producto';
 import {PRODUCTOS} from '../mock-productos';
@@ -95,8 +95,9 @@ export class ProductosComponent implements OnInit {
 ```
 
 7. Generar detalles-producto.component para separar los detalles de el producto.
-Solamente se agrega el ```typescript @Input() producto: Producto``` y en el html de productos.componente 
--> ```html <app-detalles-producto [producto]="productoSeleccionado"></app-detalles-producto>```
+Solamente se agrega el ```typescript @Input() producto: Producto ``` y en el html de productos.componente 
+-> ```html 
+<app-detalles-producto [producto]="productoSeleccionado"></app-detalles-producto> ```
 
 
 
