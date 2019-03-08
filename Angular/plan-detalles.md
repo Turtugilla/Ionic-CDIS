@@ -110,4 +110,20 @@ Al final del día debe estar la pantalla con los detalles.
   
 
 ### Día 2
+1. Creando Servicios
+```
+ng generate service producto
+```
+Producto.Component vamos a inyectar el Service.Producto
+Primero se necesita asignar el Servicio a la dependency injection por medio de un provider. A provider is something 
+that can create or deliver a service.
+
+
+```typscript
+ constructor(private productoService: ProductoService) {
+   }
+```
+The parameter simultaneously defines a private heroService property and identifies it as a HeroService injection site.
+When Angular creates a HeroesComponent, the Dependency Injection system sets the heroService parameter to the singleton instance of HeroService. 
+
 
