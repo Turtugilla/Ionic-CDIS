@@ -38,6 +38,7 @@ export class AppComponent {
 ```
 
 3. Generar un componente ```ng generate component productos```. Para esto ya se puede agreger el css en componente root.
+
   * Las aplicaciones estan construidas usando componentes
   * Un conjunto de funcionalidades  que incluyen una vista, stilos y controlador.
   * Mostrar como utilizar el selector en la app.component root.
@@ -117,6 +118,8 @@ ng generate service producto
 Producto.Component vamos a inyectar el Service.Producto
 Primero se necesita asignar el Servicio a la dependency injection por medio de un provider. A provider is something 
 that can create or deliver a service.
+Producto Service -> obtenerProductos(): Observable<Producto[]>
+
 
 
 ```typescript
@@ -125,6 +128,25 @@ that can create or deliver a service.
 ```
 The parameter simultaneously defines a private heroService property and identifies it as a HeroService injection site.
 When Angular creates a HeroesComponent, the Dependency Injection system sets the heroService parameter to the singleton instance of HeroService. 
-Observable from Reactive
+
+
+Mensajes.
+Generar componente mensajes
+```
+ng generate component mensajes
+```
+
+Generar servicio mensajes
+```
+ng generate service mensaje
+```
+MensajeService se deberá inyectar en ProductoService y MensajesComponent. ProductoService lo necesita para utilizar el método
+add y agregar un mensaje. MensajesComponent para mostrar el atributo mensajes[] en pantalla. 
+Esta DE se logra importando la clase MensajeService en el componente o servicio donde se requiere inyectar y se agrega a
+el constructor una instancia de MensajeService:
+private mensajeService: MensajeService
+
+
+* Angular Dependency Injection para inyectar en un componente.
 
 
