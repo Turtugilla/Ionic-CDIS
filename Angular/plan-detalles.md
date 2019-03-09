@@ -119,11 +119,12 @@ Primero se necesita asignar el Servicio a la dependency injection por medio de u
 that can create or deliver a service.
 
 
-```typscript
+```typescript
  constructor(private productoService: ProductoService) {
    }
 ```
 The parameter simultaneously defines a private heroService property and identifies it as a HeroService injection site.
 When Angular creates a HeroesComponent, the Dependency Injection system sets the heroService parameter to the singleton instance of HeroService. 
+Observable from Reactive
 
 
