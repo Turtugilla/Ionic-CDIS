@@ -17,12 +17,14 @@
 * Componentes
 * Servicios
 
-### Componentes a Detalle
+### Componentes
 * Templates
 * Mostrar información
 * Entrada de información
 * Ciclo de vida
 * Pipes
+
+### Servicios
 
 ### Routing
 
