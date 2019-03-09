@@ -121,7 +121,6 @@ that can create or deliver a service.
 Producto Service -> obtenerProductos(): Observable<Producto[]>
 
 
-
 ```typescript
  constructor(private productoService: ProductoService) {
    }
@@ -129,8 +128,7 @@ Producto Service -> obtenerProductos(): Observable<Producto[]>
 The parameter simultaneously defines a private heroService property and identifies it as a HeroService injection site.
 When Angular creates a HeroesComponent, the Dependency Injection system sets the heroService parameter to the singleton instance of HeroService. 
 
-
-Mensajes.
+#### Mensajes.
 Generar componente mensajes
 ```
 ng generate component mensajes
@@ -140,13 +138,12 @@ Generar servicio mensajes
 ```
 ng generate service mensaje
 ```
-MensajeService se deberá inyectar en ProductoService y MensajesComponent. ProductoService lo necesita para utilizar el método
-add y agregar un mensaje. MensajesComponent para mostrar el atributo mensajes[] en pantalla. 
+MensajeService se deberá inyectar en ProductoService y MensajesComponent. 
+ProductoService lo necesita para utilizar el método add y agregar un mensaje. 
+MensajesComponent para mostrar el atributo mensajes[] en pantalla. 
 Esta DE se logra importando la clase MensajeService en el componente o servicio donde se requiere inyectar y se agrega a
 el constructor una instancia de MensajeService:
 private mensajeService: MensajeService
 
-
-* Angular Dependency Injection para inyectar en un componente.
 
 
