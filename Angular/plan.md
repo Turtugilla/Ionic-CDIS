@@ -1,20 +1,33 @@
 #  Temario
-* Que es Angular
-* Prerrequisitos 
+### Introducción
+* Entendiendo Angular
+  1. Qué es 
+  2. Para que sirve
+* TypeScript
+  1. El motor de Angular
+  2. Y Porque a TypeScript
+  3. Panorama de el Lenguaje 
 * Instalación de Angular
-
-## Conceptos  
-### Arquitectura
+  1. Node.js y npm
+  2. angular cli
+  3. IDE Visual Studio Code
+  
+### Arquitectura OverView
 * Modulos
 * Componentes
 * Servicios
 
-### Componentes
+### Componentes a Detalle
 * Templates
 * Mostrar información
 * Entrada de información
 * Ciclo de vida
 * Pipes
+
+### Routing
+
+### HTTPClient
+
 ____
 ## Práctica
 ### Pantalla dashboard
