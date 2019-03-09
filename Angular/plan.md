@@ -7,7 +7,7 @@
   1. El motor de Angular
   2. Y Porque a TypeScript
   3. Panorama de el Lenguaje 
-* Instalación de Angular
+### Instalando Angular
   1. Node.js y npm
   2. angular cli
   3. IDE Visual Studio Code
