@@ -146,4 +146,58 @@ el constructor una instancia de MensajeService:
 private mensajeService: MensajeService
 
 
+### Día 3
+#### Routing
+La mejor práctica es cargar y configurar el router en un separado, top-level modulo que esta dedicado a el routing y es 
+importado por el root AppModule.
+Por convención, el modulo class name es AppRoutingModule en src/app folder.
+Se va usar el CLI para generarlo.
+```
+ng generate module app-routing --flat --module=app
+```
+--flat pone el archivo in src/app en lugar de su propio folder
+--module==app dice al CLI que registre los imports  en el array the AppModule.
+
+**Routes** dice al router que vistas debe mostrar cuando un usuario haga click en un link o pegue la  URL en el browser barra
+de dirección.
+Normalmente un Angular Route tiene dos propiedades:
+* path: es un string que es a un URL en el browser barra de dirección
+* component: el componente que el router debería crear cuando esta navegando hacia esta ruta.
+Se quiere navegar hacia ProductosComponent.
+1. Importar ProductosComponent para poderlo referenciar en el Route. Definir un array de Router con un solo route 
+para ese componente.
+2. app.component.html -> router-outlet le dice a el router donde mostrar las vistas routed.
+El RouterOutlet es una de las directivas de routes que se hacen disponibles para el AppComponent por que  AppModule
+ importa AppRoutingModule que a la vez exporta RouterModule.
+#### Agregar un DashBoard.
+1. Generar el componente DashBoard.
+2. Hay que agregar el CSS, HTML  y TS
+3. Agregarlo en el RoutingModule
+4. Agregar los links en component root html.
+
+#### Detalles de los Productos  Route.
+1. Se agrega Componente DP a el AppModule Routing
+2. Con el path detail/:id
+Agregar el goback button
+
+
+### Día 4
+#### Trabajando con imagenes
+
+
+
+### Día 5 
+HTTP Client.
+Que es lo que se hará aqui
+1. ProductoService va obtener los productos con HTTP requests
+2. Agregar, Editar y Eliminar productos y guardar estos cambios con HTTP.
+3. Busqueda de productos por nombre
+Habilitar HTTP Services
+1. Agregandolo en el root module. y en el imports array
+Vamos a simular comunicación con un server remoto usando in memory Web API.
+2. Se agrega la data que estaba en mock-productos en in-memory-data.service
+Productos y HTTP
+
+
+
 
