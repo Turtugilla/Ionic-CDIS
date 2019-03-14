@@ -198,6 +198,8 @@ Vamos a simular comunicación con un server remoto usando in memory Web API.
 2. Se agrega la data que estaba en mock-productos en in-memory-data.service
 Productos y HTTP
 
+### Día 6 Angular Primefaces
+
 
 
 
