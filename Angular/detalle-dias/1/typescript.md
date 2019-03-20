@@ -51,6 +51,15 @@ de la función
 
 ___
 
+Definition de Clase
+```typescript
+class MyClass{
+  add(x,y){
+    return x + y
+  }
+}
+```
+
 
 
 
