@@ -60,7 +60,48 @@ class MyClass{
 }
 ```
 
+### Public and Private 
+Pendiente
 
 
+
+### IDE
+Visual Studio Code
+#### Debugging
+Create a launch.json file.
+
+### Template Strings
+TypeScript permite utilizar la sintaxis template string ES6. Esta sintaxis provee un metodo conveniente for inyectar valores a string.
+
+var myVariable = "test";
+console.log(`myVariable=${myVariable}`);
+
+### any
+Especifica que un objeto puede tener cualquier tipo.
+
+### const
+Si una variable es marcada como const, entonces su valor solo puede ser asignado cuando la variable se define.
+
+
+### Functions
+```typescript
+function addNumbers(a: number, b: number) : string{
+  return (a + b).toString();
+}
+
+var addResult = addNumbers(2,3);
+console.log(`addNumbers returned: ${addResult}`);
+```
+
+```typescript
+function addNumbers(a: number, b: number) : string{
+  return a + b;
+}
+
+var addResult = addNumbers(2,3);
+console.log(`addNumbers returned: ${addResult}`);
+```
+
+#### Functions callbacks
 
 
