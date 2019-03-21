@@ -1,5 +1,5 @@
 
-JavaScript es un lenguaje que va creciendo es muy usado.
+JavaScript es un lenguaje que va creciendo es muy usado. (Presentar gráficas)
 * Node permite correr JavaScript del lado del servidor, mostrando grandes sitios webs con sesiones, interacción con bases de datos.
 * Apache Cordova: corre aplicaciones nativas de telefono mobiles usando HTML, CSS, y JavaScript.
 * Project Kinoma usa JavaScript para manejar dispositivos para Internet de las Cosas.
@@ -84,6 +84,8 @@ Si una variable es marcada como const, entonces su valor solo puede ser asignado
 
 
 ### Functions
+
+Comparar estas dos funciones 
 ```typescript
 function addNumbers(a: number, b: number) : string{
   return (a + b).toString();
@@ -101,7 +103,22 @@ function addNumbers(a: number, b: number) : string{
 var addResult = addNumbers(2,3);
 console.log(`addNumbers returned: ${addResult}`);
 ```
+___
+#### Funciones anónimas
+Funciones que estan definidas en el aire y no especifican un nombre de función.
+```typescript
+var addFunction =  function(a: number, b:number) : number{
+  return a + b;
+ }
+ 
+ var addFunctionResult = addFunction(2,3);
+ console.log(`addFunctionResult: ${addFunctionResult}`);
+
+```
 
 #### Functions callbacks
+Una de las mas poderosas características de JavaScript y tambien es la tecnología en que Node ha sido construido es el concepto de 
+**callback functions**
+Una callback function es una función que se pasa en otra funcion y generalmente es invocada dentro de la función.
 
 
