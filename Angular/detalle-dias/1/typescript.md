@@ -121,4 +121,37 @@ Una de las mas poderosas características de JavaScript y tambien es la tecnolog
 **callback functions**
 Una callback function es una función que se pasa en otra funcion y generalmente es invocada dentro de la función.
 
+```typescript
+//Ejemplo en JavaScript
+var callbackFunction = function(text){
+  console.log('inside callbackFunction ' + text);
+}
+
+function doSomethingWithCallback(initialText, callback){
+  console.log('inside doSomethingWithCallback ' + initialText);
+  callback(initialText);
+}
+
+doSomethingWithACallback('myText', callbackFunction);
+
+```
+
+```typescript
+//Ejemplo en typescript
+
+function callbackFunction(text: string){
+  console.log(`inside callbackFunction ${text}`);
+}
+
+function doSomethingWithACallback(
+    initialText: string,
+    callback : (initialText: string) => void
+ ) {
+  console.log(`inside doSomethingWithCallback ${initialText}`);
+  callback(initialText);
+ }
+ 
+ doSomethingWithCallback("myText", callbackFunction);
+```
+
 
