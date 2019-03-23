@@ -154,4 +154,11 @@ function doSomethingWithACallback(
  doSomethingWithCallback("myText", callbackFunction);
 ```
 
+Ref. Mastering TypeScript Chapter 2.
+
+Interfaces.
+Proveen un mecanismo para definir que propiedades y métodos un objeto debe implementar. Es una manera de definir un tipo custom.
+
+
+
 
