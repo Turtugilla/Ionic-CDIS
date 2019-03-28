@@ -4,7 +4,8 @@ Está escrito en TypeScript
 
 
 > [Plataforma: Sirve de apoyo o base para algo
- Framework: una estructura conceptual y tecnológica de asistencia definida, normalmente, con artefactos o módulos concretos de software, 
+
+> Framework: una estructura conceptual y tecnológica de asistencia definida, normalmente, con artefactos o módulos concretos de software, 
  que puede servir de base para la organización y desarrollo de software ]
 
 Bloques Básicos de Construccion de aplicaciones Angular son los NgModule -> Proveen 
