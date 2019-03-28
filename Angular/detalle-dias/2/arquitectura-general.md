@@ -1,7 +1,9 @@
 Angular es una plataforma y framework para construir aplicaciones enfocadas en el cliente
 en HTML y TypeScript.
 Está escrito en TypeScript
-[Plataforma: Sirve de apoyo o base para algo
+
+
+> [Plataforma: Sirve de apoyo o base para algo
  Framework: una estructura conceptual y tecnológica de asistencia definida, normalmente, con artefactos o módulos concretos de software, 
  que puede servir de base para la organización y desarrollo de software ]
 
