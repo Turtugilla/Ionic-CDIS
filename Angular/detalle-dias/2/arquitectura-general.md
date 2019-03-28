@@ -36,7 +36,5 @@ datos.
 Property Binding: Intepolar valores que son procesados por la aplicacion hacia el HTML. 
 
 
-Introducción a módulos
-
 
 
