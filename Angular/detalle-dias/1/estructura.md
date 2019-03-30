@@ -1,6 +1,9 @@
-### Presentación
-PPT.
-### Código
-[El código que se utilize va ir en una sección dentro de los detalles]
-### Dudas
-[Aquí voy a ir poniendo las dudas que se presenten de los estudiantes]
+#### Presentación
+PPT. TypeScript.
+
+#### Actividades.
+Tips and Tricks de Visual Studio Code.
+
+Interactive de Visual Studio Code.
+
+#### Dudas 
