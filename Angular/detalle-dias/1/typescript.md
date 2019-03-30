@@ -1,4 +1,5 @@
 
+## Cap 2 Tipos, Variables y Técnicas de Funciónes
 JavaScript es un lenguaje que va creciendo es muy usado. (Presentar gráficas)
 * Node permite correr JavaScript del lado del servidor, mostrando grandes sitios webs con sesiones, interacción con bases de datos.
 * Apache Cordova: corre aplicaciones nativas de telefono mobiles usando HTML, CSS, y JavaScript.
@@ -154,11 +155,31 @@ function doSomethingWithACallback(
  doSomethingWithCallback("myText", callbackFunction);
 ```
 
-Ref. Mastering TypeScript Chapter 2.
+Cap 3 Interfaces, Clases y Herencia
 
-Interfaces.
-Proveen un mecanismo para definir que propiedades y métodos un objeto debe implementar. Es una manera de definir un tipo custom.
+### Interfaces.
+Proveen un mecanismo para definir que propiedades y métodos un objeto debe implementar. 
+Es una manera de definir un tipo custom.
 
+```typescript
+interfaces IComplexType {
+  id: number;
+  name: string;
+}
+
+```
+Esta definición de interface puede ser aplicada para una variable:
+
+```typescript
+  let complexType : IComplexType;
+  complextType = {id: 1, name: "test"};
+```
+
+Las interfaces son un compile-time caracteristica del lenguaje TypeScript y el compilador no genera ningun código
+JavaScript de las interfaces.
+
+### Clases
+Una clase es una definición de un objeto
 
 
 
