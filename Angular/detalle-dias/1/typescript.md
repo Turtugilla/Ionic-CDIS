@@ -74,9 +74,10 @@ Create a launch.json file.
 ### Template Strings
 TypeScript permite utilizar la sintaxis template string ES6. Esta sintaxis provee un metodo conveniente for inyectar valores a string.
 
+```typescript
 var myVariable = "test";
 console.log(`myVariable=${myVariable}`);
-
+```
 ### any
 Especifica que un objeto puede tener cualquier tipo.
 
