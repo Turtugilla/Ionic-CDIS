@@ -25,14 +25,19 @@ a las vistas. Los Servicios pueden ser inyectados en los componentes como depend
 Ambos tanto los Componentes y Servicios son simples clases con **DECORADORES** que marcan su
 tipo y proveen metada que dice a Angular como usarlas.
 
-Componentes
+### Componentes
+
 Un template combina html con sintaxis angular que puede modificar elementos antes de que
 sean mostrados.
+
 Template Directives: proveen lógica del programa
+
 Binding MarkUp: conecta los datos de tu aplicacion y el DOM.
 Hay dos tipos de data binding:
+
 Event Binding: permite a la aplicación responder a entradas de usuario al actualizar los 
 datos.
+
 Property Binding: Intepolar valores que son procesados por la aplicacion hacia el HTML. 
 
 
